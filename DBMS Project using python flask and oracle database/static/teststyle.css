@@ -1,0 +1,51 @@
+*{
+    top:0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: silver;
+    text-align: center;
+    width: 100%;
+    height: 47.5rem;
+    padding-top: 2rem;
+    
+
+}
+.submitmsg{
+    color: rgb(55, 234, 55);
+}
+
+.form1{
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 2.2rem;
+    text-align: center;   
+}
+.sub1{
+    color: black;
+    border-radius: 2rem;
+    width: 5rem;
+    height: 2rem;
+    margin-top: 2rem;
+
+}
+
+.showcontainer{
+    color:black;
+    margin-top: 2rem;
+    margin-left: 16rem;
+    background-color: cornsilk;
+    display: inline-block;
+    
+}
+.thead1{
+    
+    background-color: gold;
+    color:black;
+    text-align: center;
+    width: 8rem;
+}

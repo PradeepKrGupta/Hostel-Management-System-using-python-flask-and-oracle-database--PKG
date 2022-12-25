@@ -1,0 +1,35 @@
+{% extends 'base.html'%}
+{% block title %}Admin Page{% endblock  %}
+
+{% block content %}
+<div class="container2">
+
+    <div class="slogin">
+        <div class="iconform"><i class="fa-regular fa-user"></i></div>
+        <h1>Welcome to Admin Registration Page</h1>
+        <h2>Enter the Following Details</h2>
+
+        <form action="/add3" method="post">
+            <!-- <label for="regno">Regno:</label> -->
+            <input type="number" class="form1" name="aregno" id="aregno"
+                placeholder="Enter your Registration number" required><br>
+
+            <!-- <label for="name">Name:</label> -->
+            <input type="text" class="form1" name="name" id="name" placeholder="Enter your name" class="form1" required><br>
+
+            <!-- <label for="gender">Gender:</label> -->
+            <input type="text" class="form1" name="gender" id="gender" placeholder="Enter your Gender" required><br>
+
+            <input type="text" class="form1" name="Department" id="Department" placeholder="Enter your Department" required><br>
+
+            <!-- <label for="dob">Regno:</label> -->
+            <input type="email" class="form1" name="email" id="email" placeholder="Enter your email(Example:xyz@gamil.com)" required><br>
+
+            <button type="submit" class="form1 sub1">Submit</button>
+            <button type="reset" class="form1 sub1">Reset</button>
+            <button type="submit" class="form1 sub1"><a href="./showdata" target="_blank" style="width:6px;">Show Data</a></button>
+        </form>
+    </div>
+
+</div>
+{% endblock  %}

@@ -1,0 +1,43 @@
+{% extends 'base.html'%}
+{% block title %}Services{% endblock %}
+
+{% block content %}
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://www.tezu.ernet.in/hostels/kwh/img/IMG_20220206_130545.jpg" class="d-block w-100" alt="unable to load">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="font-size: 2rem; font-weight: bolder; color: black;">Good Quality Hostel Rooms</h5>
+                <p style="font-size: 2rem; font-weight: bolder; color: black;">Our Hostel serve around 250 to 300 rooms overall</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://kristujayanti.edu.in/campus/img/new-cafe2.jpg" class="d-block w-100" alt="unable to load">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="font-size: 2rem; font-weight: bolder; color: white;">Good Quality Hostel Rooms</h5>
+                <p style="font-size: 2rem; font-weight: bolder; color: white;">Our Hostel serve around 250 to 300 rooms overall</p>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://i.ytimg.com/vi/Y3blk6qOK30/maxresdefault.jpg" class="d-block w-100" alt="unable to load">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="font-size: 2rem; font-weight: bolder; color: black;">Large Play grounds for various tournments</h5>
+                <p style="font-size: 2rem; font-weight: bolder; color: black;">Our campus has large playground where we used to conduct various tournments and competetions</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+{% endblock %}

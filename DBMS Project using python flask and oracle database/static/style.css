@@ -1,0 +1,260 @@
+*{
+    top:0px;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* ---------Main navigation ---------- */
+.container{
+    background-image: linear-gradient(to right, rgb(255, 202, 42), rgb(255, 247, 93));
+    max-width: 100%;
+    position: sticky;
+    /* display: inline-block; */
+    box-shadow: 2px 2px 2px white;
+    
+/* ----------Navigation of navbar-------------- */
+}
+.navigation1{
+    display: flex;
+    cursor: pointer;
+    margin:0rem 0rem 0rem 2rem;
+}
+.navigation1 li{
+    list-style: none;
+    margin: 2rem;
+    font-size: 1.5rem;
+    /* text-shadow: 2px 2px 2px #ffffff; */
+    font-family: 'EB Garamond', serif;
+    
+}
+.navigation1 li:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+}
+
+/* -----------Navigation of social icons------------ */
+.navigation2{
+    display: flex;
+    position: absolute;
+    margin:0.5rem 0rem 0rem 79rem;
+    justify-content: right;
+}
+.navigation2 li{
+    display: inline-block;
+    list-style: none;
+    margin: 1.1rem;
+    font-size: 1.3rem;
+    
+    
+}
+.navigation2 a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navigation2 li:hover{
+    transform: scale(1.3);
+}
+
+/* -----------Login button and page------------ */
+.mainLogin{
+    display: flex;
+    justify-content: center;
+}
+.mainLogin li{
+    list-style: none;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    /* text-shadow: 2px 2px 2px #ffffff; */
+    font-family: 'EB Garamond', serif;
+    
+}
+.mainLogin li:hover{
+    transform: scale(1.05);
+}
+.mainLogin a{
+    color: black;
+    background-image: linear-gradient(to right, rgb(255, 202, 42), rgb(255, 247, 93));
+    border-radius: 0.8rem;
+    /* border: 2px solid black; */
+    padding: 0.2rem 0.8rem;
+    
+}
+
+/* ---Main heading css---------- */
+.mainH1{
+    text-align: center;
+    margin-top: 8rem;
+    font-family: 'EB Garamond', serif;
+    font-size: 5rem;
+    text-shadow: 3rem;
+    /* text-shadow: 2px 2px 3px #ffffff; */
+}
+
+
+/* -----main image------- */
+.mainImage{
+    position: absolute;
+    width: 100%;
+    height: 47.5rem;
+    z-index: -1;
+    opacity: 0.6;
+    
+}
+
+
+/* -----------------for Create Account Form-------------------- */
+.container2{
+    text-align: center;
+    width: 100%;
+    height: 41.2rem;
+    padding-top: 3rem;
+    padding-right: 50.2rem;
+    padding-bottom: 2rem;
+    
+    background-image: linear-gradient(to top, rgb(30, 29, 29), rgb(255, 255, 255));
+
+}
+
+
+.form1{
+    margin-top: 1rem;
+    /* margin-left: 20rem; */
+    border: 2px solid black;
+    border-radius: 1.4rem;
+    width: 30rem;
+    height: 2.4rem;
+    text-align: center;   
+}
+.form1:hover{
+    transform: scale(1.02);
+}
+
+.sub1{
+    color: black;
+    border-radius: 2rem;
+    width: 5rem;
+    height: 2.2rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+.sub1:hover{
+    transform: scale(1.05);
+    background-color: black;
+    color: white;
+}
+.sub1 a{
+    text-decoration: none;
+    color: black;
+}
+.sub1 a:hover{
+    color: white;
+}
+
+.iconform{
+    position: absolute;
+    margin: 14rem 0rem 0rem 60rem;
+    font-size: 13rem;
+    filter: invert(1);
+}
+/* -------------for Hostel form----------- */
+.loginContainer{
+    text-align: center;
+    width: 100%;
+    height: 41.2rem;
+    padding-top: 3rem;
+    padding-right: 50.2rem;
+    padding-bottom: 2rem;
+    
+    background-image: linear-gradient(to top, rgb(255, 219, 102), rgb(255, 255, 255));
+
+}
+.iconform2{
+    position: absolute;
+    margin: 14rem 0rem 0rem 60rem;
+    font-size: 13rem;
+    
+}
+
+
+/* --------------To show Details ------------------ */
+
+.mainContainer{
+    text-align: center;
+    background-color: cornsilk;
+    height: 100%;
+}
+.showcontainer1{
+    color:black;
+    margin-top: 2rem;
+    margin-left: 16rem;
+    display: inline-block;
+    
+}
+.FirstContainerH2{
+    margin-right: 22rem;
+}
+.showcontainer1 th{
+    background-color: gold;
+    color:black;
+    text-align: center;
+    width: 8rem;
+}
+
+.showcontainer2{
+    /* display: flex; */
+    color:black;
+    margin-top: 6rem;
+    margin-right: 26rem;
+    /* justify-content: center; */
+    
+    background-color: cornsilk;
+    display: inline-block;
+    
+}
+.showcontainer2 th{
+    background-color: gold;
+    color:black;
+    text-align: center;
+    width: 8rem;
+}
+
+.showcontainer3{
+    color:black;
+    margin-top: 6rem;
+    margin-right: 22rem;
+    background-color: cornsilk;
+    display: inline-block;
+    
+}
+.showcontainer3 th{
+    background-color: gold;
+    color:black;
+    text-align: center;
+    width: 8rem;
+}
+
+
+/* Container 4 css for Admin Details */
+.showcontainer4{
+    color:black;
+    margin-top: 6rem;
+    margin-right: 22rem;
+    background-color: cornsilk;
+    display: inline-block;
+    
+}
+.showcontainer4 th{
+    background-color: gold;
+    color:black;
+    text-align: center;
+    width: 8rem;
+}
+
+/* Card container in block page */

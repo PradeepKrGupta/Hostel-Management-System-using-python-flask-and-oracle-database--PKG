@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+{% block title %}Hostel Details{% endblock  %}
+
+{% block content %}
+    <div class="loginContainer">
+        <div class="blogin">
+            
+            <div class="iconform2"><i class="fa-sharp fa-solid fa-circle-info"></i></div>
+            <h2>To Know Your Hostel Name and Room Number,<br>Fill the following details</h2>
+
+            <form action="/add2" method="post">
+
+                <input type="number" class="form1" name="regno" id="regno" placeholder="Enter your Registration number" required><br>
+
+                <input type="number" class="form1" name="year" id="year" placeholder="Enter your year (Example :1, 2, 3, 4)" required><br>
+
+                <input type="text" class="form1" name="branch" id="branch" placeholder="Enter your branch name (Example: cse, ece,eee,me, ai)" required><br>
+
+
+                <button type="submit" class="form1 sub1">Submit<button>
+                <button type="reset" class="form1 sub1">Reset</button>
+                <button type="submit" class="form1 sub1"><a href="./showdata" target="_blank">Show Data</a></button>
+            </form>
+        </div>
+        
+    </div>
+{% endblock  %}
+
